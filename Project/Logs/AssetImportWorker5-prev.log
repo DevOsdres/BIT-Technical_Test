@@ -1,0 +1,297 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.39f1 (fb3b7b32f191) revision 16464763'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'en' Physical Memory: 32598 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.39f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+C:/Unity Projects/Inventory_Prototype
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+58136
+Successfully changed project path to: C:/Unity Projects/Inventory_Prototype
+C:/Unity Projects/Inventory_Prototype
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [24236] Host "[IP] 192.168.20.8 [Port] 0 [Flags] 2 [Guid] 4230197833 [EditorId] 4230197833 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-GV1NKDM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [24236] Host "[IP] 192.168.20.8 [Port] 0 [Flags] 2 [Guid] 4230197833 [EditorId] 4230197833 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-GV1NKDM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 71.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.39f1 (fb3b7b32f191)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.39f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Unity Projects/Inventory_Prototype/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x2486)
+    Vendor:   NVIDIA
+    VRAM:     8024 MB
+    Driver:   32.0.15.6636
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.39f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.39f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.39f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56424
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.39f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.39f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.39f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.003063 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 57.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.406 seconds
+Domain Reload Profiling:
+	ReloadAssembly (407ms)
+		BeginReloadAssembly (61ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (285ms)
+			LoadAssemblies (61ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (62ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (16ms)
+			SetupLoadedEditorAssemblies (181ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (58ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (86ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003531 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 57.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.106 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1106ms)
+		BeginReloadAssembly (82ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (960ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (162ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (681ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (58ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (503ms)
+				ProcessInitializeOnLoadMethodAttributes (56ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4914 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (0.7 MB). Loaded Objects now: 5368.
+Memory consumption went from 197.1 MB to 196.4 MB.
+Total: 2.308400 ms (FindLiveObjects: 0.215400 ms CreateObjectMapping: 0.127800 ms MarkObjects: 1.753700 ms  DeleteObjects: 0.210800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1028650.268232 seconds.
+  path: Assets/Assets/Food_FREE/Prefabs/sushi_dish_001.prefab
+  artifactKey: Guid(33bd3696e4ffca649b47370f28ae1193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets/Food_FREE/Prefabs/sushi_dish_001.prefab using Guid(33bd3696e4ffca649b47370f28ae1193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7a450eab662c203312f6cf7102817c4') in 0.210592 seconds 
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 5.341958 seconds.
+  path: Assets/Assets/Food_FREE/Prefabs/yogurt_001.prefab
+  artifactKey: Guid(6012fccf4ebae9e4cb47349aa82f193d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets/Food_FREE/Prefabs/yogurt_001.prefab using Guid(6012fccf4ebae9e4cb47349aa82f193d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '615d40cb7806182ecb6bca1a93bd39a7') in 0.014156 seconds 
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 554.603337 seconds.
+  path: Assets/Assets/Low-Poly Medieval Market/Prefabs/Fruits and vegetables/apple_red.prefab
+  artifactKey: Guid(10e1618a04997b9449183bad8d969464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets/Low-Poly Medieval Market/Prefabs/Fruits and vegetables/apple_red.prefab using Guid(10e1618a04997b9449183bad8d969464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad58abcc21fb578975fb6cd46df605e6') in 0.040838 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets/Low-Poly Medieval Market/Prefabs/Fruits and vegetables/tomato.prefab
+  artifactKey: Guid(ba0a31dc656c679499efa3bb7dba1d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets/Low-Poly Medieval Market/Prefabs/Fruits and vegetables/tomato.prefab using Guid(ba0a31dc656c679499efa3bb7dba1d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67b90e95c3a78716b5fd1e3446846de8') in 0.031621 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets/Low-Poly Medieval Market/Prefabs/Fruits and vegetables/bananas.prefab
+  artifactKey: Guid(2aea14354031de945a8280e4486ef3af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets/Low-Poly Medieval Market/Prefabs/Fruits and vegetables/bananas.prefab using Guid(2aea14354031de945a8280e4486ef3af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cbd2c6da6d5beb2d164e26b205ababf') in 0.017835 seconds 
+Number of asset objects unloaded after import = 49
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Assets/Low-Poly Medieval Market/Prefabs/Fruits and vegetables/apple_yellow.prefab
+  artifactKey: Guid(ec69acfba609a0f4a931eb6ac24f3d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets/Low-Poly Medieval Market/Prefabs/Fruits and vegetables/apple_yellow.prefab using Guid(ec69acfba609a0f4a931eb6ac24f3d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2668656f4b6d73eb59e7d3ecf4a28fb') in 0.016730 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Assets/Low-Poly Medieval Market/Prefabs/Fruits and vegetables/onion.prefab
+  artifactKey: Guid(1ef9cef6908c85e4ab01cd5bf9666027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets/Low-Poly Medieval Market/Prefabs/Fruits and vegetables/onion.prefab using Guid(1ef9cef6908c85e4ab01cd5bf9666027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24644739bdbfc5560442da7e34ccdfb5') in 0.014996 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets/Low-Poly Medieval Market/Prefabs/Fruits and vegetables/cucumber.prefab
+  artifactKey: Guid(0dd60896cc22bfa46bfd0a908da1b92b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets/Low-Poly Medieval Market/Prefabs/Fruits and vegetables/cucumber.prefab using Guid(0dd60896cc22bfa46bfd0a908da1b92b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d1521a879d53a31d9ef52d6df24cc06') in 0.015113 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 3.172808 seconds.
+  path: Assets/Assets/Low-Poly Medieval Market/Prefabs/Weapons/crossbow.prefab
+  artifactKey: Guid(8d5cf3cf8ffea8644b3a44cd6870c703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets/Low-Poly Medieval Market/Prefabs/Weapons/crossbow.prefab using Guid(8d5cf3cf8ffea8644b3a44cd6870c703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd82ceb37ec1ae6269609862541567131') in 0.036791 seconds 
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets/Low-Poly Medieval Market/Prefabs/Weapons/one_handed_sword.prefab
+  artifactKey: Guid(a262d897f717f8f4f8c816f018cf988c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets/Low-Poly Medieval Market/Prefabs/Weapons/one_handed_sword.prefab using Guid(a262d897f717f8f4f8c816f018cf988c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c3d0640ca5872bbe773c69473dfe4c5') in 0.030655 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets/Low-Poly Medieval Market/Prefabs/Weapons/curved_dagger.prefab
+  artifactKey: Guid(a2674319195dc7347bcebeb89032aca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets/Low-Poly Medieval Market/Prefabs/Weapons/curved_dagger.prefab using Guid(a2674319195dc7347bcebeb89032aca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e01ccc45813ae49b666e2db3b62980e5') in 0.025207 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Assets/Low-Poly Medieval Market/Prefabs/Weapons/two_handed_axe.prefab
+  artifactKey: Guid(05b7ed5f67e74a640a9c53e965cd9d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets/Low-Poly Medieval Market/Prefabs/Weapons/two_handed_axe.prefab using Guid(05b7ed5f67e74a640a9c53e965cd9d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6a92301b908a837c88b930111f6f740') in 0.025379 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets/Low-Poly Medieval Market/Prefabs/Weapons/shield_02.prefab
+  artifactKey: Guid(44e79123abd9236488753ed07fadb5db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets/Low-Poly Medieval Market/Prefabs/Weapons/shield_02.prefab using Guid(44e79123abd9236488753ed07fadb5db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dd4e82e72a886bd43899ea60c01f9d6') in 0.033997 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Assets/Low-Poly Medieval Market/Prefabs/Weapons/short_sword.prefab
+  artifactKey: Guid(999f1c6fc24d87c459f66a5e2b19e6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets/Low-Poly Medieval Market/Prefabs/Weapons/short_sword.prefab using Guid(999f1c6fc24d87c459f66a5e2b19e6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e931f7cb8b9fd05ef3968b87f68213c6') in 0.049819 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Assets/Low-Poly Medieval Market/Prefabs/Weapons/mace.prefab
+  artifactKey: Guid(93b246921b0fb3d4fa054186c3505528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets/Low-Poly Medieval Market/Prefabs/Weapons/mace.prefab using Guid(93b246921b0fb3d4fa054186c3505528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68e3d0e5da6d59cc49025fc4a85dba73') in 0.045727 seconds 
+Number of asset objects unloaded after import = 10
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
